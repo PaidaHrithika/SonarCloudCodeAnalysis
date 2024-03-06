@@ -18,5 +18,5 @@ jobs:
           args: >
               -Dsonar.organization=paidahrithika
               -Dsonar.projectKey=PaidaHrithika_SonarCloudCodeAnalysis
-              -Dsonar.analysis.mode=preview 
+              -Dsonar.analysis.enable=false
               -Dsonar.python.coverage.reportPaths=coverage.xml
